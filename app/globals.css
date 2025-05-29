@@ -45,5 +45,6 @@
 body {
   background: var(--background);
   color: var(--dark);
+  font-family: var(--font-);
  
 }

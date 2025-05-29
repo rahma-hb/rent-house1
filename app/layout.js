@@ -1,6 +1,8 @@
 import { Roboto,Montserrat,Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "./components/header";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -32,7 +34,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={` ${roboto.variable} ${montserrat.variable} ${poppins.variable} antialiased`}>
         <Header/>
+        <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

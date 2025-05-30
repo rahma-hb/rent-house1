@@ -28,7 +28,7 @@ export default function AnnonceCard({annonce}) {
                     className="bg-primary text-secondary py-2 px-6 font-semibold rounded-3xl  w-fit hover:bg-dark"
                     onClick={handleClick}
                 >
-                    See details
+                    Voir détails
                 </button>
             </div>
 
